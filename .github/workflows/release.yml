@@ -26,4 +26,4 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
-        files: target/scala-3.3.4/test-app.jar
+        files: ./target/scala-3.3.4/test-app.jar
