@@ -1,4 +1,4 @@
-# Example sbt project that compiles using Scala 3
+# Example sbt project that compiles using Scala 3 PR
 
 [![Continuous Integration](https://github.com/scala/scala3-example-project/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/scala/scala3-example-project/actions/workflows/ci.yml)
 
