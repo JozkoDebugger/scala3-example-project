@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - "v*.*.*"
+env:
+  SCALA_VERSION: '3.5.1'
 
 jobs:
   build:
@@ -23,4 +25,4 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
-        files: target/scala-3.5.1/test-app.jar
+        files: target/scala-${SCALA_VERSION}/test-app.jar
